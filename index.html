@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Search Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Movie Search Application</h1>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <input type="text" id="movieInput" placeholder="Search for a movie..." aria-label="Search for a movie">
+            <button id="searchButton" aria-label="Search button">Search</button>
+        </section>
+
+        <section class="results-section">
+            <div class="results" id="movieResults"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Data provided by <a href="https://www.omdbapi.com/" target="_blank" rel="noopener noreferrer">OMDB API</a>.
+        </p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
